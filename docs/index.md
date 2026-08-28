@@ -17,7 +17,7 @@ Bienvenido al portal central de contenidos y guías de estudio.
     [:octicons-arrow-right-24: Ver Sitio Web](https://jlabrinp.github.io/Probabilidades/){ .md-button .md-button--primary }
     [:octicons-code-24: Ver Repositorio](https://github.com/jlabrinp/Probabilidades){ .md-button }
 
--   :material-presentation:{ .lg .middle } **Curso: Clases**
+-   :material-presentation:{ .lg .middle } **Curso: Geometría Analítica**
 
     ---
 
