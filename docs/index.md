@@ -15,9 +15,9 @@
     <img src="assets/foto.jpg" alt="Foto de perfil" style="width: 150px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <div>
         <p style="font-size: 1.1em;">
-            Hola, soy <strong>J. Labrin</strong>, profesor de Matemáticas y Computación. 
-            Me apasiona enseñar y crear materiales didácticos que faciliten el aprendizaje. 
-            En este sitio recopilo apuntes, guías de ejercicios, presentaciones y exámenes resueltos para mis estudiantes.
+            Hola, soy <strong>José Labrin</strong>, profesor de Matemática. 
+            Actualmente soy coordinador docente del Departamento de Matemática y Estadistica de la Universidad de La Frontera, director académico del Campeonato de Matemática de la UFRO, encargado regional de la Olimpiada Nacional de Matemática de la SOMACHI.
+            En este sitio recopilo apuntes, guías de ejercicios, presentaciones y mucho más.
         </p>
         <p>
             Si tienes dudas o sugerencias, no dudes en contactarme a través de 
