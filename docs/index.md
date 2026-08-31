@@ -12,7 +12,7 @@
 ## 👨‍🏫 Sobre mí
 
 <div style="display: flex; align-items: center; gap: 2em; margin: 2em 0;">
-    <img src="[assets/foto.jpg](https://media.licdn.com/dms/image/v2/D4D03AQFHdKgQFWCUGw/profile-displayphoto-crop_800_800/B4DZ6GCNQbHMAI-/0/1780365186710?e=1789603200&v=beta&t=aFozXoTCBZtidB2ET3sIgY1kasX1AVCPXxcojzgqM6E)" alt="Foto de perfil" style="width: 150px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFHdKgQFWCUGw/profile-displayphoto-crop_800_800/B4DZ6GCNQbHMAI-/0/1780365186710?e=1789603200&v=beta&t=aFozXoTCBZtidB2ET3sIgY1kasX1AVCPXxcojzgqM6E" alt="Foto de perfil" style="width: 150px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <div>
         <p style="font-size: 1.1em;">
             Hola, soy <strong>José Labrin</strong>, profesor de Matemática. 
