@@ -102,7 +102,7 @@
 
     Matemática discreta, lógica, estructuras y más.
 
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/MatComp/){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/MatCom/){ .md-button .md-button--primary }
 
 </div>
 
