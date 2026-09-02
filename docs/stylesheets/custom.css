@@ -1,115 +1,69 @@
-/* Ocultar barra de navegación superior de MkDocs para un estilo minimalista */
-.md-header {
-  background-color: #ffffff !important;
-  color: #333333 !important;
-  box-shadow: none !important;
-  border-bottom: 1px solid #e1e1e1;
+/* Ocultar barra lateral derecha (TOC) para dar espacio a la grilla */
+.md-sidebar--secondary {
+  display: none !important;
 }
 
-.md-main__inner {
-  margin-top: 2rem;
-}
-
-/* Hero layout estilo tFolio */
-.hero-container {
+/* Rediseño de la tarjeta principal (Hero) */
+.hero-card {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 2rem 0;
-}
-
-.hero-text {
-  flex: 1;
-  min-width: 300px;
-}
-
-.hero-text h1 {
-  font-size: 2.8rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 0.2rem;
-  color: #111111;
-}
-
-.hero-text h3 {
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: #555555;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-
-.hero-text p {
-  color: #666666;
-  font-size: 1rem;
-  line-height: 1.6;
+  gap: 2.5rem;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eaeeed;
   margin-bottom: 2rem;
 }
 
-.hero-image {
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 3px solid #ffffff;
+  flex-shrink: 0;
+}
+
+.hero-bio {
   flex: 1;
-  min-width: 280px;
-  max-width: 450px;
 }
 
-.hero-image img {
-  width: 100%;
-  border-radius: 4px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-
-.hero-image img:hover {
-  filter: grayscale(0%);
-}
-
-/* Botones de acción inferiores */
-.hero-actions {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.btn-cv {
+.hero-bio h1 {
+  font-size: 2rem;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #111111 !important;
-  text-decoration: none;
-  border-bottom: 2px solid #111111;
-  padding-bottom: 2px;
+  margin: 0 0 0.2rem 0;
+  color: #1a1a1a;
 }
 
-.btn-cv:hover {
-  color: #555555 !important;
-  border-color: #555555;
+.hero-bio .subtitle {
+  font-size: 1rem;
+  color: #5b6b73;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
-/* Estilo del panel de navegación lateral */
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--primary {
-    background-color: #1a1a1a;
-    border-right: 1px solid #333333;
-  }
 
-  .md-sidebar--primary .md-nav__link {
-    color: #cccccc !important;
-    text-transform: uppercase;
-    font-size: 0.85rem;
-    letter-spacing: 0.5px;
-    font-weight: 600;
-  }
+.hero-bio p {
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
 
-  .md-sidebar--primary .md-nav__link--active,
-  .md-sidebar--primary .md-nav__link:hover {
-    color: #ffffff !important;
-  }
+.hero-links {
+  display: flex;
+  gap: 0.8rem;
+}
 
-  .md-sidebar--primary .md-nav__title {
-    color: #ffffff !important;
-    font-weight: 800;
-  }
+/* Ajustes a las tarjetas de los cursos */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 10px;
+  border: 1px solid #e1e8ed;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
