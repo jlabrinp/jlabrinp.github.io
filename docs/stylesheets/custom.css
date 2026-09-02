@@ -1,0 +1,90 @@
+/* Ocultar barra de navegación superior de MkDocs para un estilo minimalista */
+.md-header {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.md-main__inner {
+  margin-top: 2rem;
+}
+
+/* Hero layout estilo tFolio */
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.2rem;
+  color: #111111;
+}
+
+.hero-text h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #555555;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text p {
+  color: #666666;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 280px;
+  max-width: 450px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.hero-image img:hover {
+  filter: grayscale(0%);
+}
+
+/* Botones de acción inferiores */
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn-cv {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #111111 !important;
+  text-decoration: none;
+  border-bottom: 2px solid #111111;
+  padding-bottom: 2px;
+}
+
+.btn-cv:hover {
+  color: #555555 !important;
+  border-color: #555555;
+}
