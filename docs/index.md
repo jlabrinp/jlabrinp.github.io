@@ -1,15 +1,56 @@
-# Mis Asignaturas y Recursos
-
-<div style="text-align: center; margin: 2em 0;">
-    <h2 style="font-weight: 300;">Bienvenido al portal central de contenidos y guías de estudio</h2>
-    <p style="font-size: 1.2em; color: var(--md-default-fg-color--light);">
-        Todo el material organizado por asignatura, además de recursos para preparar pruebas y competencias.
+<div class="hero-container">
+  <div class="hero-text">
+    <h1>SOY J. LABRÍN</h1>
+    <h3>PROFESOR & INVESTIGADOR</h3>
+    <p>
+      Bienvenido a mi portal académico. En este espacio encontrarás material de estudio,
+      cuadernos interactivos de Wolfram Mathematica, guías de ejercicios en PDF y
+      los repositorios oficiales de las asignaturas impartidas.
     </p>
+    
+    <div class="hero-actions">
+      <a href="https://github.com/jlabrinp" target="_blank" class="md-button">:octicons-mark-github-16: GitHub</a>
+      <a href="#" class="btn-cv">DESCARGAR CV &rarr;</a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800" alt="Foto de perfil">
+  </div>
 </div>
 
 ---
 
-## 👨‍🏫 Sobre mí
+## 📚 Asignaturas y Cursos
+
+<div class="grid cards" markdown>
+
+-   :material-calculator-variant:{ .lg .middle } **Probabilidades**
+
+    ---
+
+    Presentaciones Beamer, guías compiladas y resúmenes.
+
+    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/Probabilidades/){ .md-button .md-button--primary }
+
+-   :material-code-braces:{ .lg .middle } **Matemática para la Computación**
+
+    ---
+
+    Matemática discreta, notebooks de Mathematica y guías.
+
+    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/MatCom/){ .md-button .md-button--primary }
+
+-   :material-presentation:{ .lg .middle } **Clases**
+
+    ---
+
+    Recursos académicos generales y presentaciones adicionales.
+
+    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/Clases/){ .md-button .md-button--primary }
+
+</div>
+
 <div style="display: flex; align-items: center; gap: 2em; margin: 2em 0;">
     <img src="https://media.licdn.com/dms/image/v2/D4D03AQFHdKgQFWCUGw/profile-displayphoto-crop_800_800/B4DZ6GCNQbHMAI-/0/1780365186710?e=1789603200&v=beta&t=aFozXoTCBZtidB2ET3sIgY1kasX1AVCPXxcojzgqM6E" 
          alt="Foto de perfil" 
@@ -34,128 +75,3 @@
     </div>
 </div>
 
----
-
-## 📚 Recursos por Asignatura
-
-<div class="grid cards" markdown>
-
--   :material-calculator-variant:{ .lg .middle } __Probabilidades__
-
-    ---
-
-    Apuntes, guías de ejercicios compiladas en PDF y presentaciones.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/Probabilidades/){ .md-button .md-button--primary }
-
--   :material-chart-box:{ .lg .middle } __Estadística__
-
-    ---
-
-    Apuntes, guías de ejercicios y ejemplos prácticos.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/Estadistica/){ .md-button .md-button--primary }
-
--   :material-vector-polygon:{ .lg .middle } __Geometría__
-
-    ---
-
-    Apuntes, guías de ejercicios compiladas en PDF y presentaciones.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/Geometria/){ .md-button .md-button--primary }
-
--   :material-axis-arrow:{ .lg .middle } __Geometría Analítica__
-
-    ---
-
-    Recursos académicos y material complementario.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/IME078/){ .md-button .md-button--primary }
-
--   :material-brain:{ .lg .middle } __Pensamiento Computacional__
-
-    ---
-
-    Guías de programación, lógica y ejercicios resueltos.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/PensamientoComputacional/){ .md-button .md-button--primary }
-
--   :material-math-compass:{ .lg .middle } __Álgebra__
-
-    ---
-
-    Apuntes teóricos, ejercicios y exámenes resueltos.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/Algebra/){ .md-button .md-button--primary }
-
--   :material-function:{ .lg .middle } __Fundamentos de Matemática__
-
-    ---
-
-    Conceptos básicos, demostraciones y guías paso a paso.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/FundamentosMat/){ .md-button .md-button--primary }
-
--   :material-code-braces:{ .lg .middle } __Matemática para la Computación__
-
-    ---
-
-    Matemática discreta, lógica, estructuras y más.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/MatCom/){ .md-button .md-button--primary }
-
-</div>
-
----
-
-## 🧪 Preparación PAES
-
-<div class="grid cards" markdown>
-
--   :material-clipboard-check:{ .lg .middle } __PAES M1__
-
-    ---
-
-    Ensayos, ejercicios tipo y material de estudio para la prueba de matemática M1.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/PAES-M1/){ .md-button .md-button--primary }
-
--   :material-clipboard-check-outline:{ .lg .middle } __PAES M2__
-
-    ---
-
-    Ensayos, ejercicios tipo y material de estudio para la prueba de matemática M2.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/PAES-M2/){ .md-button .md-button--primary }
-
-</div>
-
----
-
-## 🏆 Competencias y Olimpiadas
-
-<div class="grid cards" markdown>
-
--   :material-trophy:{ .lg .middle } __Pruebas Campeonato de Matemática__
-
-    ---
-
-    Exámenes anteriores, soluciones y entrenamientos.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/CampeonatoMat/){ .md-button .md-button--primary }
-
--   :material-school:{ .lg .middle } __Pruebas Olimpiada de Matemática__
-
-    ---
-
-    Problemas de olimpiadas, estrategias y material de preparación.
-
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/OlimpiadaMat/){ .md-button .md-button--primary }
-
-</div>
-
----
-
-## 🔗 Enlaces Rápidos
-
-[:octicons-mark-github-16: Perfil de GitHub](https://github.com/jlabrinp){ .md-button .md-button--primary }
