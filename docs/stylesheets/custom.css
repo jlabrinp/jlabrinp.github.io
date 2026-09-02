@@ -88,3 +88,28 @@
   color: #555555 !important;
   border-color: #555555;
 }
+/* Estilo del panel de navegación lateral */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    background-color: #1a1a1a;
+    border-right: 1px solid #333333;
+  }
+
+  .md-sidebar--primary .md-nav__link {
+    color: #cccccc !important;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  .md-sidebar--primary .md-nav__link--active,
+  .md-sidebar--primary .md-nav__link:hover {
+    color: #ffffff !important;
+  }
+
+  .md-sidebar--primary .md-nav__title {
+    color: #ffffff !important;
+    font-weight: 800;
+  }
+}
