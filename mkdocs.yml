@@ -1,14 +1,16 @@
-site_name: Portafolio de Cursos
+site_name: Portafolio
 site_author: jlabrinp
 
 theme:
   name: material
-  palette:
-    primary: indigo
-    accent: indigo
+  font:
+    text: Roboto
   features:
-    - navigation.instant
+    - navigation.tabs
     - navigation.sections
+
+extra_css:
+  - stylesheets/custom.css
 
 markdown_extensions:
   - attr_list
