@@ -12,16 +12,12 @@
             Actualmente soy coordinador docente del Departamento de Matemática y Estadistica de la Universidad de La Frontera, director académico del Campeonato de Matemática de la UFRO, encargado regional de la Olimpiada Nacional de Matemática de la SOMACHI.
             En este sitio recopilo apuntes, guías de ejercicios, presentaciones y mucho más.
         </p>
+    <div class="hero-links">
+      <a href="https://github.com/jlabrinp" target="_blank" class="md-button md-button--primary">:octicons-mark-github-16: Perfil GitHub</a>
+      <a href="mailto:jose.labrin@ufro.cl" class="md-button">:octicons-mail-24: Contactar</a>
     </div>
+  </div>
 </div>
-        </p>
-        <p>
-            Si tienes dudas o sugerencias, no dudes en contactarme a través de 
-            <a href="https://github.com/jlabrinp">GitHub</a> o en clases.
-        </p>
-    </div>
-</div>
-
 
 ---
 
@@ -33,25 +29,27 @@
 
     ---
 
-    Presentaciones Beamer, guías compiladas y resúmenes.
+    Presentaciones Beamer, guías de ejercicios compiladas y resúmenes de clase.
 
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/Probabilidades/){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Ver Sitio Web](https://jlabrinp.github.io/Probabilidades/){ .md-button .md-button--primary }
 
 -   :material-code-braces:{ .lg .middle } **Matemática para la Computación**
 
     ---
 
-    Matemática discreta, notebooks de Mathematica y guías.
+    Matemática discreta, notebooks de Wolfram Mathematica (.nb) y guías.
 
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/MatCom/){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Ver Sitio Web](https://jlabrinp.github.io/MatCom/){ .md-button .md-button--primary }
 
 -   :material-presentation:{ .lg .middle } **Clases**
 
     ---
 
-    Recursos académicos generales y presentaciones adicionales.
+    Recursos académicos generales, apuntes de clase y material complementario.
 
-    [:octicons-arrow-right-24: Ver Sitio](https://jlabrinp.github.io/Clases/){ .md-button .md-button--primary }
+    [:octicons-arrow-right-24: Ver Sitio Web](https://jlabrinp.github.io/Clases/){ .md-button .md-button--primary }
+
+</div>
 
 
 
