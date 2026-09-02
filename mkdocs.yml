@@ -6,8 +6,18 @@ theme:
   font:
     text: Roboto
   features:
-    - navigation.tabs
-    - navigation.sections
+    - navigation.sections       # Agrupa las páginas por secciones en el menú lateral
+    - navigation.expand         # Mantiene los menús desplegados por defecto
+    - toc.integrate             # Integra el índice de la página actual dentro del menú lateral
+
+# Define el menú lateral explícitamente si deseas secciones personalizadas
+nav:
+  - ABOUT ME: index.md
+  - CURSOS:
+      - Probabilidades: https://jlabrinp.github.io/Probabilidades/
+      - MatCom: https://jlabrinp.github.io/MatCom/
+      - Clases: https://jlabrinp.github.io/Clases/
+  - CONTACTO: contacto.md
 
 extra_css:
   - stylesheets/custom.css
