@@ -8,7 +8,7 @@
     </p>
     <div class="hero-links">
       <a href="https://github.com/jlabrinp" target="_blank" class="md-button md-button--primary">Perfil GitHub</a>
-      <a href="mailto:jose.labrin@ufro.cl" class="md-button">Contactar</a>
+      <a href="mailto:jose.labrin@ufrontera.cl" class="md-button">Contactar</a>
     </div>
   </div>
 </div>
