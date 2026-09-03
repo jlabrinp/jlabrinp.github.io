@@ -7,8 +7,8 @@
       Hola, soy <strong>José Labrín</strong>, profesor de Matemática. Actualmente soy coordinador docente del Departamento de Matemática y Estadística de la Universidad de La Frontera, director académico del Campeonato de Matemática de la UFRO y encargado regional de la Olimpiada Nacional de Matemática de la SOMACHI. En este sitio recopilo apuntes, guías de ejercicios, presentaciones y mucho más.
     </p>
     <div class="hero-links">
-      <a href="https://github.com/jlabrinp" target="_blank" class="md-button md-button--primary">:octicons-mark-github-16: Perfil GitHub</a>
-      <a href="mailto:jose.labrin@ufro.cl" class="md-button">:octicons-mail-24: Contactar</a>
+      <a href="https://github.com/jlabrinp" target="_blank" class="md-button md-button--primary">Perfil GitHub</a>
+      <a href="mailto:jose.labrin@ufro.cl" class="md-button">Contactar</a>
     </div>
   </div>
 </div>
