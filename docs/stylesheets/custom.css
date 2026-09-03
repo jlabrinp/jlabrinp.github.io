@@ -1,69 +1,75 @@
-/* Ocultar barra lateral derecha (TOC) para dar espacio a la grilla */
-.md-sidebar--secondary {
-  display: none !important;
+/* Importar fuente personalizada si deseas un acabado más fino */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+/* ===================================================
+   PALETA ESTILO KIMI (Modo Claro)
+   =================================================== */
+[data-md-color-scheme="default"] {
+  /* Fondos suaves / Cream */
+  --md-default-bg-color: #fcfbf9;
+  --md-default-bg-color--page: #f6f4f0;
+  
+  /* Textos principal y secundario */
+  --md-default-fg-color: #1f2123;
+  --md-default-fg-color--light: #525860;
+  --md-default-fg-color--lighter: #828a95;
+
+  /* Encabezados y barras de navegación */
+  --md-primary-fg-color: #1f2123;
+  --md-primary-fg-color--dark: #141517;
+  --md-primary-bg-color: #ffffff;
+
+  /* Color de acento / Botones de acción */
+  --md-accent-fg-color: #4f46e5;
+  --md-accent-fg-color--transparent: rgba(79, 70, 229, 0.1);
+  
+  /* Bordes suaves */
+  --md-typeset-table-color: #e5e2dc;
 }
 
-/* Rediseño de la tarjeta principal (Hero) */
-.hero-card {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-  background: #ffffff;
-  padding: 2.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  border: 1px solid #eaeeed;
-  margin-bottom: 2rem;
+/* ===================================================
+   PALETA ESTILO KIMI (Modo Oscuro)
+   =================================================== */
+[data-md-color-scheme="slate"] {
+  /* Fondos oscuros minimalistas */
+  --md-default-bg-color: #121315;
+  --md-default-bg-color--page: #1a1c1e;
+
+  /* Textos en modo oscuro */
+  --md-default-fg-color: #eceee0;
+  --md-default-fg-color--light: #a3a8b0;
+
+  /* Encabezados oscuros */
+  --md-primary-fg-color: #1a1c1e;
+  --md-primary-bg-color: #eceee0;
+
+  /* Color de acento */
+  --md-accent-fg-color: #6366f1;
 }
 
-.profile-img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border: 3px solid #ffffff;
-  flex-shrink: 0;
+/* ===================================================
+   AJUSTES TIPOGRÁFICOS Y TARJETAS
+   =================================================== */
+body, .md-typeset {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: -0.011em;
 }
 
-.hero-bio {
-  flex: 1;
+.md-header {
+  border-bottom: 1px solid var(--md-typeset-table-color);
+  box-shadow: none !important;
 }
 
-.hero-bio h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0 0 0.2rem 0;
-  color: #1a1a1a;
+/* Tarjetas con bordes redondeados y sombra sutil */
+.hero-card, .md-typeset .grid.cards > ul > li {
+  background-color: #ffffff;
+  border: 1px solid #e8e5df !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03) !important;
 }
 
-.hero-bio .subtitle {
-  font-size: 1rem;
-  color: #5b6b73;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.hero-bio p {
-  color: #4a5568;
-  line-height: 1.6;
-  font-size: 0.95rem;
-  margin-bottom: 1.2rem;
-}
-
-.hero-links {
-  display: flex;
-  gap: 0.8rem;
-}
-
-/* Ajustes a las tarjetas de los cursos */
-.md-typeset .grid.cards > ul > li {
-  border-radius: 10px;
-  border: 1px solid #e1e8ed;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.md-typeset .grid.cards > ul > li:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+[data-md-color-scheme="slate"] .hero-card,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li {
+  background-color: #1a1c1e;
+  border-color: #2a2d32 !important;
 }
