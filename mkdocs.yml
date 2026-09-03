@@ -7,7 +7,7 @@ theme:
     text: Plus Jakarta Sans
     code: JetBrains Mono
   palette:
-    # Modo Claro (Estilo Kimi Light)
+    # Modo Claro (Kimi Light / Cream)
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
@@ -16,7 +16,7 @@ theme:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
 
-    # Modo Oscuro (Estilo Kimi Dark)
+    # Modo Oscuro (Kimi Dark)
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
@@ -26,11 +26,10 @@ theme:
         name: Cambiar a modo claro
 
   features:
-    - navigation.instant      # Transición suave sin recargar la página completa
-    - navigation.tabs         # Pestañas de navegación superiores estilo app
-    - navigation.tabs.sticky  # Pestañas fijas al hacer scroll
-    - content.code.copy       # Botón interactivo para copiar código
-    - content.action.edit     # Enlace rápido para editar la página
+    - navigation.instant      # Navegación fluida sin recargar la página
+    - navigation.tabs         # Pestañas superiores de contenido
+    - navigation.tabs.sticky  # Menú fijo al hacer scroll
+    - content.code.copy
 
 extra_css:
   - stylesheets/custom.css
@@ -39,7 +38,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
-  - pymdownx.tabbed:          # Permite pestañas interactivas dentro del contenido
+  - pymdownx.details         # Secciones desplegables (??? note)
+  - pymdownx.tabbed:          # Pestañas de contenido (===)
       alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
