@@ -1,45 +1,64 @@
-/* Ocultar barra lateral derecha (Table of contents) */
+/* Ocultar barra lateral derecha */
 .md-sidebar--secondary {
   display: none !important;
 }
 
-/* Extender el contenido al ancho completo */
+/* Ancho completo del contenido central */
 .md-content {
   max-width: 100% !important;
 }
 
-/* Tarjeta principal (Hero Card) */
+/* Tarjeta principal (Hero Layout) */
 .hero-card {
   display: flex;
-  align-items: center;
-  gap: 2rem;
+  align-items: flex-start;
+  gap: 1.5rem;
   background-color: #ffffff;
-  padding: 2rem;
+  padding: 1.8rem;
   border-radius: 16px;
   border: 1px solid #e8e5df;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
   margin-bottom: 2rem;
 }
 
+/* Foto circular pequeña a la izquierda */
 .profile-img {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
+  width: 90px !important;
+  height: 90px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  flex-shrink: 0 !important;
+  margin-top: 0.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .hero-bio {
   flex: 1;
 }
 
-.hero-links {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+.hero-bio p {
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #2d3748;
 }
 
-/* Estilos de botones */
+.hero-links {
+  display: flex;
+  gap: 0.8rem;
+}
+
 .hero-links .md-button {
   border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+/* Modo oscuro opcional */
+[data-md-color-scheme="slate"] .hero-card {
+  background-color: #1a1c1e;
+  border-color: #2a2d32;
+}
+
+[data-md-color-scheme="slate"] .hero-bio p {
+  color: #e2e8f0;
 }
