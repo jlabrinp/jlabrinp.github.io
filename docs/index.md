@@ -1,10 +1,10 @@
-# Portafolio Académico
+# Home
 
 <div class="hero-card">
   <img src="https://github.com/jlabrinp.png" alt="José Labrín" class="profile-img">
   <div class="hero-bio">
     <p>
-      Hola, soy <strong>José Labrín</strong>, profesor de Matemática. Coordinador docente del Departamento de Matemática y Estadística de la Universidad de La Frontera.
+      Hola, soy <strong>José Labrín</strong>, profesor de Matemática. Actualmente soy coordinador docente del Departamento de Matemática y Estadística de la Universidad de La Frontera, director académico del Campeonato de Matemática de la UFRO y encargado regional de la SOMACHI.
     </p>
     <div class="hero-links">
       <a href="https://github.com/jlabrinp" target="_blank" class="md-button md-button--primary">:octicons-mark-github-16: Perfil GitHub</a>
@@ -15,8 +15,6 @@
 
 ---
 
-## 🎛️ Vista Previa Interactiva
-
 === "📚 Cursos y Asignaturas"
 
     <div class="grid cards" markdown>
@@ -25,9 +23,9 @@
 
         ---
 
-        Presentaciones Beamer, guías de ejercicios y resúmenes.
+        Presentaciones Beamer, guías de ejercicios compiladas y resúmenes de clase.
 
-        [:octicons-arrow-right-24: Explorar Curso](https://jlabrinp.github.io/Probabilidades/){ .md-button .md-button--primary }
+        [:octicons-arrow-right-24: Ver Sitio Web](https://jlabrinp.github.io/Probabilidades/){ .md-button .md-button--primary }
 
     -   :material-code-braces:{ .lg .middle } **Matemática para la Computación**
 
@@ -35,30 +33,29 @@
 
         Matemática discreta, notebooks de Wolfram Mathematica (.nb) y guías.
 
-        [:octicons-arrow-right-24: Explorar Curso](https://jlabrinp.github.io/MatCom/){ .md-button .md-button--primary }
+        [:octicons-arrow-right-24: Ver Sitio Web](https://jlabrinp.github.io/MatCom/){ .md-button .md-button--primary }
 
     -   :material-presentation:{ .lg .middle } **Clases**
 
         ---
 
-        Recursos académicos generales y presentaciones adicionales.
+        Recursos académicos generales, apuntes de clase y material complementario.
 
-        [:octicons-arrow-right-24: Explorar Curso](https://jlabrinp.github.io/Clases/){ .md-button .md-button--primary }
+        [:octicons-arrow-right-24: Ver Sitio Web](https://jlabrinp.github.io/Clases/){ .md-button .md-button--primary }
 
     </div>
 
-=== "🧪 Recursos & Archivos"
+=== "📁 Acceso Rápido a Recursos"
 
-    ??? note "📄 Guías de ejercicios en PDF"
-        * [Descargar Guía 1 - Probabilidades](https://jlabrinp.github.io/Probabilidades/)
-        * [Descargar Guía 2 - Lógica y Conjuntos](https://jlabrinp.github.io/MatCom/)
+    ??? note "📄 Guías y Documentos en PDF"
+        * [Acceder al repositorio de Probabilidades](https://jlabrinp.github.io/Probabilidades/)
+        * [Acceder al repositorio de MatCom](https://jlabrinp.github.io/MatCom/)
 
-    ??? note "🧮 Cuadernos de Wolfram Mathematica (.nb)"
-        * [Notebook 1 - Lógica Proposicional](https://jlabrinp.github.io/MatCom/)
-        * [Notebook 2 - Árboles y Grafos](https://jlabrinp.github.io/MatCom/)
+    ??? note "🧮 Cuadernos de Mathematica (.nb)"
+        * [Descargar notebooks desde MatCom](https://jlabrinp.github.io/MatCom/)
 
-=== "📫 Contacto & Horarios"
+=== "ℹ️ Información de Contacto"
 
-    * **Oficina**: Departamento de Matemática y Estadística, UFRO.
-    * **Email**: `jose.labrin@ufro.cl`
-    * **Atención a Estudiantes**: Lunes y Miércoles de 15:00 a 17:00 hrs.
+    * **Institución:** Universidad de La Frontera (UFRO)
+    * **Departamento:** Matemática y Estadística
+    * **Correo electrónico:** `jose.labrin@ufro.cl`
